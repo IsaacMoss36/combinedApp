@@ -13,6 +13,8 @@ header {
   justify-content: space-around;
   align-content: center;
   background-color: #F8FBFE;
+  width: 1200px;
+  margin: auto;
 }
 header .nav {
   display: flex;
