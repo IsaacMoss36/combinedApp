@@ -1,0 +1,39 @@
+.social button {
+  color: #0F5EF9;
+  width: 12%;
+  height: 40px;
+  color: #F8FBFE;
+  background-color: #0F5EF9;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.1em;
+}
+
+body {
+  text-align: center;
+  background-color: #0F5EF9;
+  margin: 0px;
+}
+
+.container {
+  width: 1200px;
+  background-color: #F8FBFE;
+  margin: 0px;
+  margin: auto;
+  padding: 0;
+}
+
+.social p, .social i {
+  color: #0F5EF9;
+}
+.social p {
+  font-size: 1.5em;
+}
+.social i {
+  font-size: 5em;
+}
+.social .title {
+  font-size: 2em;
+}
+
+/*# sourceMappingURL=about.css.map */

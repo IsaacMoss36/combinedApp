@@ -1,0 +1,44 @@
+$darkblue: #0F5EF9;
+$offwhite: #F8FBFE;
+
+%button {
+    color:$darkblue;
+        width: 12%;
+        height: 40px;
+        color: $offwhite;
+        background-color: $darkblue;
+        border: none;
+        border-radius: 5px;
+        font-size: 1.1em;
+}
+
+body {
+    text-align: center;
+    background-color: $darkblue;
+    margin: 0px;
+}
+.container {
+    width: 1200px;
+    background-color: $offwhite;
+    margin: 0px;
+    margin: auto;
+    padding: 0;
+}
+
+.social {
+    p, i{
+        color: $darkblue;
+    }
+    p{
+        font-size: 1.5em;
+    }
+    i{
+        font-size: 5em;
+    }
+    .title{
+        font-size: 2em;
+    }
+    button{
+        @extend %button;
+    }
+}
