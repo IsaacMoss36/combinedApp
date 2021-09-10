@@ -1,0 +1,51 @@
+header .account button {
+  color: #0D1A2E;
+  background-color: #F8FBFE;
+  border: 1px solid #8A9292;
+  border-radius: 5px;
+  height: 30px;
+  padding: 5%;
+}
+
+header {
+  display: flex;
+  height: 60px;
+  justify-content: space-around;
+  align-content: center;
+  background-color: #F8FBFE;
+}
+header .nav {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  align-self: center;
+}
+header .nav a {
+  margin: 0 8%;
+  text-decoration: none;
+  color: black;
+}
+header .nav .new {
+  display: flex;
+  align-content: center;
+}
+header .nav button {
+  font-size: 0.1em;
+  width: 40px;
+  align-self: flex-start;
+  border: none;
+  background-color: #D82E2B;
+  color: white;
+  border-radius: 8px;
+}
+header .account {
+  display: flex;
+  width: 30%;
+  align-self: center;
+}
+header .account button {
+  margin: 1%;
+  height: auto;
+}
+
+/*# sourceMappingURL=header.css.map */
