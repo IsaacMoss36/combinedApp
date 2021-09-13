@@ -1,0 +1,24 @@
+footer {
+  display: flex;
+  justify-content: space-between;
+  width: 1200px;
+  margin: auto;
+  background-color: #F8FBFE;
+}
+footer img {
+  height: 75px;
+}
+footer h1, footer p {
+  font-size: 1em;
+}
+footer p {
+  color: #8A9292;
+}
+footer input {
+  height: 40px;
+  width: 200px;
+  border: 1px solid #8A9292;
+  border-radius: 7.5px;
+}
+
+/*# sourceMappingURL=footer.css.map */

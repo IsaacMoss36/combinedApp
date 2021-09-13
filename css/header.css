@@ -1,4 +1,4 @@
-header .account button {
+header .account a button {
   color: #0D1A2E;
   background-color: #F8FBFE;
   border: 1px solid #8A9292;
@@ -45,9 +45,11 @@ header .account {
   width: 30%;
   align-self: center;
 }
-header .account button {
+header .account a button {
   margin: 1%;
   height: auto;
+  margin-left: 20px;
+  font-size: 1.5em;
 }
 
 /*# sourceMappingURL=header.css.map */

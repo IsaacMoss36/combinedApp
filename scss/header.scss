@@ -51,10 +51,15 @@ header {
         display: flex;
         width: 30%;
         align-self: center;
-        button{
+        a button{
         @extend %whitebutton;
         margin: 1%;
         height: auto;
+        
+       
+        margin-left: 20px;
+        font-size: 1.5em;
+        
         }
     }
 }

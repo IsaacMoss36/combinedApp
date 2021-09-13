@@ -21,6 +21,7 @@ box-shadow: 9px 6px 19px 3px rgba(0,0,0,0.37);
         height: 40px;
         color: $offwhite;
         background-color: $darkblue;
+        
         border: none;
         border-radius: 5px;
         font-size: 1.1em;
@@ -39,6 +40,8 @@ body {
     text-align: center;
     background-color: $darkblue;
     margin: 0px;
+    background-image: url(../images/background.jpg);
+    background-size: cover;
 }
 .container {
     width: 1200px;

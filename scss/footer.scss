@@ -1,0 +1,30 @@
+$red: #D82E2B;
+$darkblue: #0F5EF9;
+$offwhite: #F8FBFE;
+$navy: #0D1A2E;
+$lightgrey: #8A9292;
+$black: #0B1A33;
+
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    margin: auto;
+    background-color: $offwhite;
+    img{
+        height: 75px;
+    }
+    h1, p{
+        font-size: 1em;
+    }
+    p{
+        color: $lightgrey;
+    }
+    input{
+        height: 40px;
+        width: 200px;
+        border: 1px solid $lightgrey;
+        border-radius: 7.5px;
+    }
+}
