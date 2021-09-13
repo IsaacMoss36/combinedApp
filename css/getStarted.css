@@ -1,0 +1,255 @@
+/* Isaac's scss */
+@font-face {
+  font-family: roboto-heading;
+  src: url(../Fonts/Roboto/Roboto-Regular.ttf);
+}
+@font-face {
+  font-family: roboto-subheading;
+  src: url(../Fonts/Roboto/Roboto-Thin.ttf);
+}
+@font-face {
+  font-family: roboto-bold;
+  src: url(../Fonts/Roboto/Roboto-Bold.ttf);
+}
+@font-face {
+  font-family: roboto-regular;
+  src: url(../Fonts/Roboto/Roboto-Light.ttf);
+}
+@font-face {
+  font-family: roboto-italic;
+  src: url(../Fonts/Roboto/Roboto-LightItalic.ttf);
+}
+@font-face {
+  font-family: opensans-regular;
+  src: url(../Fonts/Open_Sans/OpenSans-Regular.ttf);
+}
+h1, h2 {
+  font-family: roboto-heading;
+  padding: 0;
+  margin: 0;
+  margin-top: 3%;
+  border-bottom: 3px solid black;
+  width: 35px;
+  padding-bottom: 1%;
+  font-size: 1.25em;
+}
+
+.heroText .heroHeader, h3 {
+  font-family: roboto-bold;
+  font-size: 1em;
+}
+
+h4 {
+  font-family: roboto-regular;
+  font-size: 1em;
+}
+
+p {
+  font-family: opensans-regular;
+  font-size: 1em;
+}
+
+.lower .lowerRight .lowerParagraph, .heroText .heroSubHeader, .experience h4 {
+  font-family: roboto-italic;
+  font-size: 1em;
+}
+
+header .account a button {
+  color: #0D1A2E;
+  background-color: #F8FBFE;
+  border: 1px solid #8A9292;
+  border-radius: 5px;
+  height: 30px;
+  padding: 5%;
+}
+
+header {
+  display: flex;
+  height: 60px;
+  padding-top: 20px;
+  justify-content: space-around;
+  align-content: center;
+  background-color: #F8FBFE;
+  max-width: 1200px;
+  margin: auto;
+}
+header .nav {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  align-self: center;
+}
+header .nav a {
+  margin: 0 8%;
+  text-decoration: none;
+  color: black;
+}
+header .nav .new {
+  display: flex;
+  align-content: center;
+}
+header .nav button {
+  font-size: 0.1em;
+  width: 40px;
+  align-self: flex-start;
+  border: none;
+  background-color: #D82E2B;
+  color: white;
+  border-radius: 8px;
+}
+header .account {
+  display: flex;
+  width: 30%;
+  align-self: center;
+}
+header .account a button {
+  margin: 1%;
+  height: auto;
+  margin-left: 20px;
+  font-size: 1.5em;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1000px;
+  padding: 0 100px;
+  margin: auto;
+  background-color: #F8FBFE;
+  height: 300px;
+}
+footer img {
+  height: 75px;
+}
+footer h1, footer p {
+  font-size: 1em;
+}
+footer p {
+  color: #8A9292;
+}
+footer input {
+  height: 40px;
+  width: 200px;
+  border: 1px solid #8A9292;
+  border-radius: 7.5px;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  background-color: #0F5EF9;
+}
+
+.container {
+  background-color: #F8FBFE;
+  width: 1200px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 1400px;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.heroLeft {
+  display: flex;
+  flex-direction: column;
+  margin-top: 80px;
+}
+
+.heroText .heroHeader {
+  font-size: 1.7em;
+}
+.heroText .heroSubHeader {
+  font-size: 18px;
+  font-weight: normal;
+  color: #8A9292;
+}
+.heroText .heroSubHeader .appStoreIcons img, .appStoreIcons .heroText .heroSubHeader img {
+  margin: 0px;
+  padding: 0px;
+}
+.heroText .heroSubHeader .lower .lowerRight .lowerParagraph, .lower .lowerRight .heroText .heroSubHeader .lowerParagraph, .heroText .heroSubHeader .heroSubHeader, .heroText .heroSubHeader .experience h4, .experience .heroText .heroSubHeader h4 {
+  font-family: roboto-italic;
+  font-size: 1em;
+}
+.heroText .heroSubHeader header .account a button, header .account a .heroText .heroSubHeader button {
+  color: #0D1A2E;
+  background-color: #F8FBFE;
+  border: 1px solid #8A9292;
+  border-radius: 5px;
+  height: 30px;
+  padding: 5%;
+}
+.heroText .heroSubHeader header img {
+  width: 100px;
+}
+
+.phoneNumber {
+  margin-top: 20px;
+}
+.phoneNumber #phoneNum {
+  height: 30px;
+  width: 180px;
+  border: 1px solid #AAAAAA;
+}
+.phoneNumber .getLink {
+  background-color: #0F5EF9;
+  color: white;
+  height: 30px;
+  border-radius: 5px;
+}
+
+.appStoreIcons {
+  margin-top: 20px;
+}
+.appStoreIcons img {
+  width: 120px;
+  object-fit: cover;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.heroRight img {
+  height: 500px;
+}
+
+.lower {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 30px;
+}
+.lower .lowerLeft {
+  display: flex;
+  flex-direction: column;
+}
+.lower img {
+  object-fit: cover;
+  width: 300px;
+  height: 90px;
+  box-shadow: 3px 3px 5px 3px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+}
+.lower .lowerRight {
+  width: 400px;
+}
+.lower .lowerRight .lowerHeader {
+  font-size: 1.7em;
+  color: #0B1A33;
+  font-weight: bold;
+}
+.lower .lowerRight .lowerParagraph {
+  color: #8A9292;
+}
+.lower .lowerRight .slogans {
+  object-fit: cover;
+  width: 300px;
+  height: 40px;
+  box-shadow: none;
+}
+
+/*# sourceMappingURL=getStarted.css.map */

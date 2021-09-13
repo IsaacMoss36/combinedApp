@@ -1,0 +1,72 @@
+@font-face {
+    font-family: roboto-heading;
+    src: url(../Fonts/Roboto/Roboto-Regular.ttf)
+}
+@font-face {
+    font-family: roboto-subheading;
+    src: url(../Fonts/Roboto/Roboto-Thin.ttf)
+}
+@font-face {
+    font-family: roboto-bold;
+    src: url(../Fonts/Roboto/Roboto-Bold.ttf)
+}
+@font-face {
+    font-family: roboto-regular;
+    src: url(../Fonts/Roboto/Roboto-Light.ttf)
+}
+@font-face {
+    font-family: roboto-italic;
+    src: url(../Fonts/Roboto/Roboto-LightItalic.ttf)
+}
+@font-face {
+    font-family: opensans-regular;
+    src: url(../Fonts/Open_Sans/OpenSans-Regular.ttf)
+}
+
+%heading {
+    font-family: roboto-heading;
+    padding: 0;
+    margin: 0;
+    margin-top: 3%;
+    border-bottom: 3px solid black;
+    width: 35px;
+    padding-bottom: 1%;
+    font-size: 1.25em;
+}
+%subheading {
+    font-family: roboto-subheading;
+    font-size: 1.25em;
+    
+}
+%bold {
+    font-family: roboto-bold;
+    font-size: 1em;
+}
+%roboto {
+    font-family: roboto-regular;
+    font-size: 1em;
+}
+%sans {
+    font-family: opensans-regular;
+    font-size: 1em;
+}
+%italics {
+    font-family: roboto-italic;
+    font-size: 1em;
+}
+
+h1, h2 {
+    @extend %heading;
+}
+h3 {
+    @extend %bold;
+}
+h4 {
+    @extend %roboto;
+}
+p {
+    @extend %sans;
+}
+.experience h4 {
+    @extend %italics;
+}

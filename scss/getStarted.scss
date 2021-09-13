@@ -1,0 +1,157 @@
+/* Isaac's scss */
+@import 'fonts';
+@import 'header';
+@import 'footer';
+
+
+$darkblue: #0F5EF9;
+$offwhite: #F8FBFE;
+$navy: #0D1A2E;
+$lightgrey: #8A9292;
+$black: #0B1A33;
+
+
+@mixin text($size, $weight) {
+    font-size: $size;
+    font-weight: $weight;
+%space {
+    margin:0px;
+    padding:0px;
+}
+%button {
+        color:$darkblue;
+        width: 12%;
+        height: 40px;
+        color: $offwhite;
+        background-color: $darkblue;
+        border: none;
+        border-radius: 5px;
+        font-size: 1.1em;
+}
+%title{
+    font-size: 2em;
+    color: $black;
+}
+%italics {
+    font-family: roboto-italic;
+    font-size: 1em;
+}
+%whitebutton {
+    color: $navy;
+    background-color: $offwhite;
+    border: 1px solid $lightgrey;
+    border-radius: 5px;
+    height: 30px;
+    padding: 5%;
+}
+
+header {
+    img{
+        width: 100px
+    }
+}
+
+}
+body {
+    display:flex;
+    justify-content:center;
+    background-color:$darkblue;
+    
+}
+.container {
+    background-color: $offwhite;
+    width:1200px;
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    height: 1400px;
+}
+.hero {
+    display:flex;
+    justify-content:space-evenly;
+    width:100%;
+}
+.heroLeft {
+    display:flex;
+    flex-direction: column;
+    margin-top:80px;
+}
+.heroText {
+    .heroHeader {
+        @extend %bold;
+        font-size: 1.7em;
+        
+    }
+    .heroSubHeader {
+        @include text(18px, normal);
+        color: $lightgrey;
+        @extend %italics;
+    }
+  
+}
+.phoneNumber {
+    margin-top:20px;
+    #phoneNum {
+        height:30px;
+        width:180px;
+        border:1px solid #AAAAAA;
+    }
+    .getLink {
+        background-color:$darkblue;
+        color:white;
+        height:30px;
+        border-radius:5px;
+    }
+}
+.appStoreIcons {
+    margin-top:20px;
+    img {
+        width:120px;
+        @extend %space;
+        object-fit:cover;
+        height:40px;
+        margin-right:10px;
+    }
+}
+
+
+.heroRight {
+    img {
+        height:500px;
+    }
+}
+.lower {
+    display:flex;
+    justify-content:space-evenly;
+    margin-bottom:30px;
+    .lowerLeft {
+        display:flex;
+        flex-direction:column;
+    }
+    img{
+        object-fit:cover;
+        width:300px;
+        height:90px;
+        box-shadow: 3px 3px 5px 3px rgba(0,0,0,0.2);
+        margin-bottom:20px;
+
+    }
+    .lowerRight {
+        width:400px;
+        .lowerHeader {
+            font-size:1.7em;
+            color:$black;
+            font-weight:bold;
+        }
+        .lowerParagraph {
+            color:$lightgrey;
+            @extend %italics;
+        }
+        .slogans {
+            object-fit:cover;
+            width:300px;
+            height:40px;
+            box-shadow:none;
+        }
+    }
+}
