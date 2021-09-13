@@ -10,10 +10,11 @@ header .account a button {
 header {
   display: flex;
   height: 60px;
+  padding-top: 20px;
   justify-content: space-around;
   align-content: center;
   background-color: #F8FBFE;
-  width: 1200px;
+  max-width: 1200px;
   margin: auto;
 }
 header .nav {

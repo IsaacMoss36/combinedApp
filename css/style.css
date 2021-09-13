@@ -10,10 +10,11 @@ header .account a button {
 header {
   display: flex;
   height: 60px;
+  padding-top: 20px;
   justify-content: space-around;
   align-content: center;
   background-color: #F8FBFE;
-  width: 1200px;
+  max-width: 1200px;
   margin: auto;
 }
 header .nav {
@@ -83,7 +84,7 @@ body {
 }
 
 .container {
-  width: 1200px;
+  max-width: 1200px;
   background-color: #F8FBFE;
   margin: 0px;
   margin: auto;
@@ -138,9 +139,11 @@ body {
 footer {
   display: flex;
   justify-content: space-between;
-  width: 1200px;
+  max-width: 1000px;
+  padding: 0 100px;
   margin: auto;
   background-color: #F8FBFE;
+  height: 300px;
 }
 footer img {
   height: 75px;

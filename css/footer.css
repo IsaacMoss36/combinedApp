@@ -1,9 +1,11 @@
 footer {
   display: flex;
   justify-content: space-between;
-  width: 1200px;
+  max-width: 1000px;
+  padding: 0 100px;
   margin: auto;
   background-color: #F8FBFE;
+  height: 300px;
 }
 footer img {
   height: 75px;

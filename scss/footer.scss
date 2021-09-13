@@ -6,12 +6,15 @@ $lightgrey: #8A9292;
 $black: #0B1A33;
 
 
+
 footer {
     display: flex;
     justify-content: space-between;
-    width: 1200px;
+    max-width: 1000px;
+    padding: 0 100px;
     margin: auto;
     background-color: $offwhite;
+    height: 300px;
     img{
         height: 75px;
     }

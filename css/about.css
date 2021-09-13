@@ -29,7 +29,7 @@ body {
 }
 
 .container {
-  width: 1200px;
+  max-width: 1200px;
   background-color: #F8FBFE;
   margin: 0px;
   margin: auto;
